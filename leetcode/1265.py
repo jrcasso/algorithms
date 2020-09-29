@@ -7,7 +7,6 @@
 #     def getNext(self) -> 'ImmutableListNode': # return the next node.
 
 class Solution:
-    new_list = []
     def printLinkedListInReverse(self, head: 'ImmutableListNode') -> None:
         nextNode = head.getNext()
         if nextNode:
